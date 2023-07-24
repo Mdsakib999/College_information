@@ -3,6 +3,7 @@ import Mainn from './Mainn';
 import Home from './componant/Home';
 import AllCollege from './componant/AllCollege';
 import Login from './componant/Login';
+import CollegeDetails from './componant/collegeDetails';
 
 
 export const router = createBrowserRouter([
@@ -19,6 +20,16 @@ export const router = createBrowserRouter([
                 element: <AllCollege></AllCollege>,
                 loader: ()=> fetch('/collegeData.json')
 
+            },
+            {
+                path: "/collegeDetails/:clgId",
+                element: <CollegeDetails></CollegeDetails>,
+                loader: async({params}) => {
+                    const res = await fetch(`/collegeData.json`)
+                    const data = await res.json()
+                    const single = data.find(detail => detail.id == params.clgId)
+                    return single;
+                }
             },
             {
                 path: "/login",
