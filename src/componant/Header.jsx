@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../AuthProvider";
 
 const Header = () => {
+
+  const {user, logOut } = useContext(AuthContext);
+
+  const handelLogout = () => {
+    logOut()
+      .then()
+      .catch((error) => console.log(error));
+  };
+
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -49,9 +59,12 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link to="/login">
+        {
+          user ? (<button onClick={handelLogout} className="btn btn-outline btn-primary">Log Out</button>) : (<Link to="/login">
           <button className="btn btn-outline btn-primary">Login</button>
-        </Link>
+        </Link>)
+        }
+        
       </div>
     </div>
   );

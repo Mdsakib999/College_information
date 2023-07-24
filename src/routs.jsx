@@ -4,6 +4,8 @@ import Home from './componant/Home';
 import AllCollege from './componant/AllCollege';
 import Login from './componant/Login';
 import CollegeDetails from './componant/collegeDetails';
+import Register from './componant/Register';
+import PrivateRoute from './componant/PrivateRoute';
 
 
 export const router = createBrowserRouter([
@@ -23,7 +25,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/collegeDetails/:clgId",
-                element: <CollegeDetails></CollegeDetails>,
+                element: <PrivateRoute><CollegeDetails></CollegeDetails></PrivateRoute>,
                 loader: async({params}) => {
                     const res = await fetch(`/collegeData.json`)
                     const data = await res.json()
@@ -35,6 +37,10 @@ export const router = createBrowserRouter([
                 path: "/login",
                 element: <Login></Login>
                 
+            },
+            {
+                path: "/register",
+                element: <Register></Register>
             }
         ]
     }
