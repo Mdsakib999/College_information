@@ -1,0 +1,71 @@
+[
+    {
+    "id": 1, 
+    "collegeName": "Chittagong College", 
+    "location" : "Chawkbazar, Chittagong",
+    "currentStudent": "18000+",
+    "about": "Chittagong College is a government college in Chittagong, Bangladesh. It is a college established in Bangladesh after Chittagong University. It offers Secondary School Certificate (SSC),higher secondary education (HSC), bachelor's degree, master's degree and Phd in Social Management.",
+    "establish": "1869",
+    "principal": "Prof. Md. Mozahidul Islam Chowdhury",
+    "Image": "https://new-media.dhakatribune.com/en/uploads/2022/09/20/img20220620180448.jpeg",
+    "website": "www.ctgcollege.gov.bd"
+    },
+    {
+    "id": 2, 
+    "collegeName": "Government Hazi Mohammad Mohsin College", 
+    "location" : "Chawkbazar, Chittagong",
+    "currentStudent": "20000+",
+    "about": "Government Hazi Mohammad Mohsin College is one of the renowned colleges of Bangladesh located in Chittagong, Bangladesh. Named after Muhammad Mohsin, a 19th-century philanthropist, it is one of the oldest educational institutions in the country, originally established in British India. It offers Higher Secondary Certificate (HSC) (classes 11–12) in the national curriculum of Bangladesh coupled with bachelor's degree and master's degree in various disciplines in association with National University, Bangladesh.",
+    "establish": "1874",
+    "principal": "Mohammed Quamrul Islam",
+    "Image": "https://dainikpriyobangladesh.com/wp-content/uploads/2022/02/FB_IMG_1631692393382.jpg",
+    "website": "mohsincollege.edu.bd"
+    },
+
+    {
+    "id": 3, 
+    "collegeName": "Government City College, Chittagong", 
+    "location" : "New Market, Chittagong-4000",
+    "currentStudent": "16000+",
+    "about": "In 1954, when eminent educationist, former professor of Chittagong College, Mr. Ashab Uddin was elected MLA of United Front, Mr. Badiul Chalam, the famous industrialist of Chittagong, organized a tea party at his residence in his honor. Many dignitaries were invited to this tea party. In order to improve the education of the backward common people, Mr. Ashab Uddin proposed to establish a night college in Chittagong city in front of all present.",
+    "establish": "1954",
+    "principal": "Prof. Sudeepa Dutta",
+    "Image": "https://gccc.edu.bd/wp-content/uploads/2022/10/about_us-pic-1.jpg",
+    "website": "https://gccc.edu.bd/"
+    },
+    {
+    "id": 4, 
+    "collegeName": "Hazera Taju Degree College", 
+    "location" : " Chandgaon Thana, Chittagong",
+    "currentStudent": "5000+",
+    "about": "Hazera-Taju University College is a non-government honors level degree college situated at Chandgaon Thana, Chittagong, Bangladesh.[2] The institution was founded by former member of parliament for Chittagong-8 Nurul Islam (BSc) in 1991 as a women's college.[3][4] From the very beginning of its establishment to 2005 the institution would only offer Degree pass certificate course in science, arts and commerce. But from 2006 the institution offers graduation in management and from 2007 it offers graduation in accounting.",
+    "establish": "1991",
+    "principal": "A K M Ismail",
+    "Image": "https://htdc.edu.bd/resources/about_image/1526553231.png",
+    "website": "htdc.edu.bd"
+    },
+
+    {
+    "id": 5, 
+    "collegeName": "Government College of Commerce", 
+    "location" : "Agrabad, Chattogram",
+    "currentStudent": "7500+",
+    "about": "Government College of Commerce, Chattogram is a government college in Agrabad, Chattogram, Bangladesh. It was established in 1947. The history of the government college of commerce, chittagong dates back to August, 1947, the month and year of partition of the British India",
+    "establish": "1947",
+    "principal": "Prof. Sushen Kumar Barua",
+    "Image": "https://gcom.edu.bd/uploads/slide_image/1_slide_image10.jpg",
+    "website": "https://gcom.edu.bd/"
+    },
+    {
+    "id": 6, 
+    "collegeName": "Chittagong Cantonment Public College", 
+    "location" : "Oxygen, Chittagong Cantonment",
+    "currentStudent": "5000+",
+    "about": "Chittagong Cantonment Public College (CCPC) is a higher secondary educational institution in Chittagong, Bangladesh. It was established in 1961, and administered by the Bangladesh Army. The institution also offers post-secondary education.[1] It has been consecutively awarded the award of the Chittagong district in the Ministry of Education in 2016, 2017 and 2018.[2][3]",
+    "establish": "1961",
+    "principal": "Colonel Mujibul Haque Sikder, PBGM",
+    "Image": "https://shweb.me/infointeriors/wp-content/uploads/2015/09/Chittagong-Cantonment-School.jpg",
+    "website": "ccpc.edu.bd"
+    }
+
+]
